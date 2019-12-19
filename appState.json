@@ -1,0 +1,87 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5065e240-e0af-462e-84e8-82ce43b50756": {
+        "id": "5065e240-e0af-462e-84e8-82ce43b50756",
+        "parent": null,
+        "name": "test19",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "bbc2c930-ae61-4347-a2e4-fd79809247d3",
+          "ccc5f165-8961-4810-b967-8e31965c2ddf"
+        ],
+        "isRemovable": false,
+        "filePath": "test19"
+      },
+      "bbc2c930-ae61-4347-a2e4-fd79809247d3": {
+        "id": "bbc2c930-ae61-4347-a2e4-fd79809247d3",
+        "parent": "5065e240-e0af-462e-84e8-82ce43b50756",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test19/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "ccc5f165-8961-4810-b967-8e31965c2ddf": {
+        "id": "ccc5f165-8961-4810-b967-8e31965c2ddf",
+        "parent": "5065e240-e0af-462e-84e8-82ce43b50756",
+        "name": "testjson.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test19/testjson.json"
+      }
+    },
+    "rootNode": "5065e240-e0af-462e-84e8-82ce43b50756",
+    "openFiles": [
+      "bbc2c930-ae61-4347-a2e4-fd79809247d3",
+      "ccc5f165-8961-4810-b967-8e31965c2ddf"
+    ],
+    "currentFileId": "ccc5f165-8961-4810-b967-8e31965c2ddf",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "test19",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576739789203
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "test19",
+      "url": "https://github.com/Indunil1992/test19"
+    }
+  }
+}
